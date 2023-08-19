@@ -26,6 +26,13 @@
 	{
 		display:none
 	}	 
+
+.two_column_one_by_two
+{
+  display: grid;
+  grid-template-columns: auto;
+}
+
 }
 
 /* Tablet Styles */
@@ -53,6 +60,13 @@
 	{
 		display:none
 	}	 
+
+.two_column_one_by_two
+{
+  display: grid;
+  grid-template-columns: auto;
+}
+
 
 }
 
@@ -88,6 +102,14 @@
 		display:none
 	}	 
 	  
+
+
+.two_column_one_by_two
+{
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
 }
 
 @media only print 
@@ -136,8 +158,11 @@
   grid-template-columns: auto auto auto auto;
 }
 
+/*
 .two_column_one_by_two
 {
   display: grid;
-  grid-template-columns: 33% 67%;
+  grid-template-columns: 10% 90%;
 }
+
+*/
